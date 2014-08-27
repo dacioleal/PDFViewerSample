@@ -14,13 +14,16 @@
 		F35CB44119AE67C6005B0096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB44019AE67C6005B0096 /* main.m */; };
 		F35CB44519AE67C6005B0096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB44419AE67C6005B0096 /* AppDelegate.m */; };
 		F35CB44819AE67C6005B0096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35CB44619AE67C6005B0096 /* Main.storyboard */; };
-		F35CB44B19AE67C6005B0096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB44A19AE67C6005B0096 /* ViewController.m */; };
 		F35CB44D19AE67C6005B0096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35CB44C19AE67C6005B0096 /* Images.xcassets */; };
 		F35CB45419AE67C6005B0096 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CB45319AE67C6005B0096 /* XCTest.framework */; };
 		F35CB45519AE67C6005B0096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CB43419AE67C6005B0096 /* Foundation.framework */; };
 		F35CB45619AE67C6005B0096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CB43819AE67C6005B0096 /* UIKit.framework */; };
 		F35CB45E19AE67C6005B0096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F35CB45C19AE67C6005B0096 /* InfoPlist.strings */; };
 		F35CB46019AE67C6005B0096 /* PDFViewerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB45F19AE67C6005B0096 /* PDFViewerSampleTests.m */; };
+		F35CB46B19AE696D005B0096 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB46A19AE696D005B0096 /* PDFScrollView.m */; };
+		F35CB46E19AE699D005B0096 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB46D19AE699D005B0096 /* TiledPDFView.m */; };
+		F35CB47019AE69C5005B0096 /* D50.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F35CB46F19AE69C5005B0096 /* D50.pdf */; };
+		F35CB47319AE6B5E005B0096 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB47219AE6B5E005B0096 /* PDFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,19 @@
 		F35CB44319AE67C6005B0096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F35CB44419AE67C6005B0096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F35CB44719AE67C6005B0096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F35CB44919AE67C6005B0096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F35CB44A19AE67C6005B0096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F35CB44C19AE67C6005B0096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F35CB45219AE67C6005B0096 /* PDFViewerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFViewerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35CB45319AE67C6005B0096 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F35CB45B19AE67C6005B0096 /* PDFViewerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFViewerSampleTests-Info.plist"; sourceTree = "<group>"; };
 		F35CB45D19AE67C6005B0096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F35CB45F19AE67C6005B0096 /* PDFViewerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewerSampleTests.m; sourceTree = "<group>"; };
+		F35CB46919AE696D005B0096 /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		F35CB46A19AE696D005B0096 /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		F35CB46C19AE699D005B0096 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		F35CB46D19AE699D005B0096 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		F35CB46F19AE69C5005B0096 /* D50.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D50.pdf; sourceTree = "<group>"; };
+		F35CB47119AE6B5E005B0096 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFViewController.h; path = ../PDFViewController.h; sourceTree = "<group>"; };
+		F35CB47219AE6B5E005B0096 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFViewController.m; path = ../PDFViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +123,13 @@
 				F35CB44319AE67C6005B0096 /* AppDelegate.h */,
 				F35CB44419AE67C6005B0096 /* AppDelegate.m */,
 				F35CB44619AE67C6005B0096 /* Main.storyboard */,
-				F35CB44919AE67C6005B0096 /* ViewController.h */,
-				F35CB44A19AE67C6005B0096 /* ViewController.m */,
+				F35CB47119AE6B5E005B0096 /* PDFViewController.h */,
+				F35CB47219AE6B5E005B0096 /* PDFViewController.m */,
+				F35CB46919AE696D005B0096 /* PDFScrollView.h */,
+				F35CB46A19AE696D005B0096 /* PDFScrollView.m */,
+				F35CB46C19AE699D005B0096 /* TiledPDFView.h */,
+				F35CB46D19AE699D005B0096 /* TiledPDFView.m */,
+				F35CB46F19AE69C5005B0096 /* D50.pdf */,
 				F35CB44C19AE67C6005B0096 /* Images.xcassets */,
 				F35CB43B19AE67C6005B0096 /* Supporting Files */,
 			);
@@ -228,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35CB47019AE69C5005B0096 /* D50.pdf in Resources */,
 				F35CB44D19AE67C6005B0096 /* Images.xcassets in Resources */,
 				F35CB43F19AE67C6005B0096 /* InfoPlist.strings in Resources */,
 				F35CB44819AE67C6005B0096 /* Main.storyboard in Resources */,
@@ -249,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35CB44B19AE67C6005B0096 /* ViewController.m in Sources */,
+				F35CB46E19AE699D005B0096 /* TiledPDFView.m in Sources */,
+				F35CB47319AE6B5E005B0096 /* PDFViewController.m in Sources */,
 				F35CB44519AE67C6005B0096 /* AppDelegate.m in Sources */,
+				F35CB46B19AE696D005B0096 /* PDFScrollView.m in Sources */,
 				F35CB44119AE67C6005B0096 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
