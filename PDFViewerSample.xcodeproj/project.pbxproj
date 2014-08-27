@@ -24,6 +24,9 @@
 		F35CB46E19AE699D005B0096 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB46D19AE699D005B0096 /* TiledPDFView.m */; };
 		F35CB47019AE69C5005B0096 /* D50.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F35CB46F19AE69C5005B0096 /* D50.pdf */; };
 		F35CB47319AE6B5E005B0096 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35CB47219AE6B5E005B0096 /* PDFViewController.m */; };
+		F35CB47719AE7EBE005B0096 /* D49.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F35CB47419AE7EBE005B0096 /* D49.pdf */; };
+		F35CB47819AE7EBE005B0096 /* D52.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F35CB47519AE7EBE005B0096 /* D52.pdf */; };
+		F35CB47919AE7EBE005B0096 /* D53.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F35CB47619AE7EBE005B0096 /* D53.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		F35CB46F19AE69C5005B0096 /* D50.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D50.pdf; sourceTree = "<group>"; };
 		F35CB47119AE6B5E005B0096 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFViewController.h; path = ../PDFViewController.h; sourceTree = "<group>"; };
 		F35CB47219AE6B5E005B0096 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFViewController.m; path = ../PDFViewController.m; sourceTree = "<group>"; };
+		F35CB47419AE7EBE005B0096 /* D49.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D49.pdf; sourceTree = "<group>"; };
+		F35CB47519AE7EBE005B0096 /* D52.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D52.pdf; sourceTree = "<group>"; };
+		F35CB47619AE7EBE005B0096 /* D53.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D53.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 				F35CB46C19AE699D005B0096 /* TiledPDFView.h */,
 				F35CB46D19AE699D005B0096 /* TiledPDFView.m */,
 				F35CB46F19AE69C5005B0096 /* D50.pdf */,
+				F35CB47419AE7EBE005B0096 /* D49.pdf */,
+				F35CB47519AE7EBE005B0096 /* D52.pdf */,
+				F35CB47619AE7EBE005B0096 /* D53.pdf */,
 				F35CB44C19AE67C6005B0096 /* Images.xcassets */,
 				F35CB43B19AE67C6005B0096 /* Supporting Files */,
 			);
@@ -241,10 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35CB47819AE7EBE005B0096 /* D52.pdf in Resources */,
 				F35CB47019AE69C5005B0096 /* D50.pdf in Resources */,
+				F35CB47919AE7EBE005B0096 /* D53.pdf in Resources */,
 				F35CB44D19AE67C6005B0096 /* Images.xcassets in Resources */,
 				F35CB43F19AE67C6005B0096 /* InfoPlist.strings in Resources */,
 				F35CB44819AE67C6005B0096 /* Main.storyboard in Resources */,
+				F35CB47719AE7EBE005B0096 /* D49.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				F35CB46519AE67C6005B0096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35CB46619AE67C6005B0096 /* Build configuration list for PBXNativeTarget "PDFViewerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				F35CB46819AE67C6005B0096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
